@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <title>Redirection Webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="URL Shorterner for free by thebao.me" />
-    <meta name="keywords" content="URL Shorterner for free by thebao.me" />
+    <meta name="description" content="URL Shorterner for free by TMQ" />
+    <meta name="keywords" content="URL Shorterner for free by TMQ" />
     <meta content="Themesbrand" name="author" />
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -26,10 +26,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta property="og:url"                content="https://chuyenhuong.github.io/" />
+    <meta property="og:url"                content="https://iot-vn.github.io/" />
     <meta property="og:type"               content="Redirection webpage" />
-    <meta property="og:title"              content="URL Shorterner for free by thebao.me" />
-    <meta property="og:description"        content="URL Shorterner for free by thebao.me" />
+    <meta property="og:title"              content="URL Shorterner for free by TMQ" />
+    <meta property="og:description"        content="URL Shorterner for free by TMQ" />
     <meta property="og:image"              content="images/home-2-img.png" />
 </head>
 <body>
@@ -139,7 +139,7 @@
             var url = new URL(url_string);
             var code = url.searchParams.get("i");
             $.ajax({
-                url: 'https://script.google.com/macros/s/AKfycbwUL8VigLf_3QJSlG_RQBu2k-17zL0R0VeA38lg0yxdNylcabkH/exec?type=2&url=' + code,
+                url: 'https://script.google.com/macros/s/1QwcoG7fXQN6TK8vKXiZp2SpIQGx2vkHU89g-xJprQxH4kGtYwrF6rb6G/exec?type=2&url=' + code,
                 type: 'GET',
                 success: function(resp){
                     if ( (resp.length > 1) && (resp.includes("http")) ) {
