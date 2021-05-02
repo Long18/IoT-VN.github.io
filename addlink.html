@@ -26,10 +26,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <meta property="og:url"                content="https://chuyenhuong.github.io/" />
+    <meta property="og:url"                content="https://iot-vn.github.io/" />
     <meta property="og:type"               content="Redirection webpage" />
-    <meta property="og:title"              content="URL Shorterner for free by thebao.me" />
-    <meta property="og:description"        content="URL Shorterner for free by thebao.me" />
+    <meta property="og:title"              content="URL Shorterner for free by TMQ" />
+    <meta property="og:description"        content="URL Shorterner for free by TMQ" />
     <meta property="og:image"              content="images/home-2-img.png" />
 </head>
 <body>
@@ -122,11 +122,7 @@
                                     <div class="follow">
                                         <h4 class="text-dark mb-3">Follow me</h4>
                                         <ul class="follow-icon list-inline mt-32 mb-0">
-                                            <li class="list-inline-item f-15"><a href="https://www.facebook.com/luthebao97/" target="_blank" class="social-icon text-muted"><i class="mdi mdi-facebook"></i></a></li>
-                                            <li class="list-inline-item f-15"><a href="https://www.facebook.com/luthebao97/" target="_blank" class="social-icon text-muted"><i class="mdi mdi-twitter"></i></a></li>
-                                            <li class="list-inline-item f-15"><a href="https://www.facebook.com/luthebao97/" target="_blank" class="social-icon text-muted"><i class="mdi mdi-google-plus"></i></a></li>
-                                            <li class="list-inline-item f-15"><a href="https://www.facebook.com/luthebao97/" target="_blank" class="social-icon text-muted"><i class="mdi mdi-linkedin"></i></a></li>
-                                            <li class="list-inline-item f-15"><a href="https://www.facebook.com/luthebao97/" target="_blank" class="social-icon text-muted"><i class="mdi mdi-whatsapp"></i></a></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -177,11 +173,11 @@
             if (ValidURL(url1)) {
                 var url2 = encodeURI(url1);
                 $.ajax({
-                    url: 'https://script.google.com/macros/s/AKfycbwUL8VigLf_3QJSlG_RQBu2k-17zL0R0VeA38lg0yxdNylcabkH/exec?type=69&url=' + url2,
+                    url: 'https://script.google.com/macros/s/1QwcoG7fXQN6TK8vKXiZp2SpIQGx2vkHU89g-xJprQxH4kGtYwrF6rb6G?type=69&url=' + url2,
                     type: 'GET',
                     success: function(resp){
                         if ((resp.length > 4) && (resp.length < 9)) {
-                            $('#urlneedShort').val('https://baolts.github.io/redirecturl/?i=' + resp);
+                            $('#urlneedShort').val('https://iot-vn.github.io/redirecturl/?i=' + resp);
                             $('#urlneedShort').attr('readonly', 'readonly');
                         } else {
                             $('#urlneedShort').val('ERROR');
