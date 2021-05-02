@@ -177,7 +177,7 @@
                     type: 'GET',
                     success: function(resp){
                         if ((resp.length > 4) && (resp.length < 9)) {
-                            $('#urlneedShort').val('https://iot-vn.github.io/?i=' + resp);
+                            $('#urlneedShort').val('https://iot-vn.github.io/' + resp);
                             $('#urlneedShort').attr('readonly', 'readonly');
                         } else {
                             $('#urlneedShort').val('ERROR');
